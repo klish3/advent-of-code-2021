@@ -1,0 +1,30 @@
+{
+  "name": "advent-of-code-2021",
+  "version": "0.1.0",
+  "description": "Advent of Code 2021",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "tsc",
+    "it": "tsc && node dist/index.js",
+    "all": "tsc && node dist/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klish3/advent-of-code-2021.git"
+  },
+  "author": "Klish3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klish3/advent-of-code-2021/issues"
+  },
+  "homepage": "https://github.com/klish3/advent-of-code-2021#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "typescript": "^4.5.3"
+  },
+  "dependencies": {
+    "node-fetch": "^3.1.0"
+  },
+  "type": "module"
+}
